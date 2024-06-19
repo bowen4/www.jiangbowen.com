@@ -21,8 +21,42 @@ const { title } = Astro.props;
 	</body>
 </html>
 <style is:global>
+	@font-face {
+		font-family: 'Source Sans 3';
+		src: url('/fonts/SourceSans3VF-Upright-Subset.ttf.woff2') format('woff2');
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Satoshi`';
+		src: url('/fonts/Satoshi-Variable.woff2') format('woff2');
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Castoro';
+		src: url('/fonts/Castoro-Regular.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Inter Display';
+		src: url('/fonts/InterDisplay-SemiBold.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 600;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Inter Display';
+		src: url('/fonts/InterDisplay-Bold.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 700;
+		font-display: swap;
+	}
 	html {
-		font-family: system-ui, sans-serif;
-		background: #f3f4f5;
+		font-family: 'Castoro', serif;
+		background: #f6f4f2;
 	}
 </style>
